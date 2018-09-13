@@ -35,7 +35,7 @@ public class BMI {
         * cm*100=m*/
 
         System.out.println((((ft*12)+(in))*2.54/(450-350))*(((ft*12)+(in))*2.54/(450-350)));
-        k = key.nextByte();
+        System.out.println((lbs/2.2));
 
 
 
