@@ -26,16 +26,16 @@ public class BMI {
         System.out.println(i);
         in = key.nextByte();
         System.out.println(l);
-        lbs = key.nextByte();
+        lbs = key.nextShort();
 
 
 
         /*lbs*2.2=kg
         * in*2.54=cm
         * cm*100=m*/
+        /*System.out.println((lbs/2.2)/((((ft*12)+(in))*2.54/(450-350))*(((ft*12)+(in))*2.54/(450-350))));*/
 
-        System.out.println((((ft*12)+(in))*2.54/(450-350))*(((ft*12)+(in))*2.54/(450-350)));
-        System.out.println((lbs/2.2));
+        System.out.println("Your BIM is " + (lbs/2.2)/((((ft*12)+(in))*2.54/(450-350))*(((ft*12)+(in))*2.54/(450-350))));
 
 
 
